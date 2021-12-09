@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT - компания из Бишкек</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="short icon" href="./img/isoft.png">
+    <link rel="stylesheet" href="./css/stype.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"><img src="./img/isoft.png"></div>
+    </div>
+    <div class="headeer">
+        <div class="wrapper">
+            <div class="logo"><a href="#"><img src="./img/isoft.png"></a></div>
+            <nav>
+                <input type="radio" name="slide" id="menu-btn">
+                <input type="radio" name="slide" id="cancel-btn">
+                <ul class="nav-links">
+                    <label for="cancel-btn" class="btn cancel-btn"><i class="fa fa-times"></i></label>
+                    <li><a href="#home">Главная</a></li>
+                    <li>
+                        <a href="#development" class="desktop-itme">Разработка</a>
+                        <input type="checkbox" id="showDrop">
+                        <label for="showDrop" class="mobile-itme">Разработка</label>
+                        <ul class="drop-menu">
+                            <li><a href="#">Разработка веб сервисов и сайтов</a></li>
+                            <li><a href="#">Разработка мобильных приложений</a></li>
+                            <li><a href="#">Интернет магазин</a></li>
+                            <li><a href="#">Ремонт компьютеров и электротехники</a></li>
+                            <li><a href="#">Web-разработчик</a></li>
+                            <li><a href="#">Тестирование</a></li>
+                            <li><a href="#">Офис-менеджер</a></li>
+                            <li><a href="#">Web-дизайнер</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#company">О компания</a></li>
+                    <li><a href="#course">Курс</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+            </nav>
+        </div>
+    </div>
+
+    <section id="home" class="homw">
+        <div class="banne">
+            <div id="particles-js"></div>
+            <div class="banne-text">
+                <div class="text">
+                    <h1>Разработаем
+                        качественные IT решения
+                        для вашего бизнеса под ключ в Бишкеке
+                    </h1>
+                    <p class="dodal_p">Мы — IT-компания из Бишкека, с 2018 года 
+                        работающая в сфере веб-разработки и дизайна. 
+                    </p>
+                    <button  data-modal class="btn">Отправить</button>
+                    <div class="modal">
+                        <div class="modal__dialog">
+                            <form action="#">
+                                <div data-close class="modal_btn">&times;</div>
+                                <p class="modal_p">МЫ СВЯЖЕМСЯ С ВАМИ КАК МОЖНО БЫСТРЕЕ!</p>
+                                <div class="row100">
+                                    <div class="col">
+                                        <div class="inputBox">
+                                            <input type="text_span" name="" required="требуемый">
+                                            <span class="text_span">Ваше имя</span>
+                                            <span class="line"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="inputBox">
+                                            <input type="text_span" name="" required="требуемый">
+                                            <span class="text_span">Телефон для связи</span>
+                                            <span class="line"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="inputBox">
+                                            <input type="text_span" name="" required="требуемый">
+                                            <span class="text_span">Текущий сайт</span>
+                                            <span class="line"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row100">
+                                        <div class="cola">
+                                            <input type="submit" value="Отправить">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="banne-two" >
+            <div class="box-containe">
+                <div class="box">
+                    <div class="fwo">
+                        <img src="./img/Rectangle 3.png">
+                    </div>
+                    <div class="tino">
+                        <a href="#">
+                            <h1>Курсы по <br> программированию</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="fwo">
+                        <img src="./img/Rectangle 5.png">
+                    </div>
+                    <div class="tino">
+                        <a href="#">
+                            <h1>Разработка <br>
+                            веб сервисов
+                            и сайтов
+                            </h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="development">
+        <div class="com-wrapper">
+            <div data-aos="flip-up" class="com-box">
+                <h1>Как мы работаем?</h1>
+                <p>Команда MITAPP постоянно следит за развитием и тенденциями в сфере ИТ. Мы активно применяем на практике самые современные технологии.</p>
+            </div>
+            <h1 data-aos="flip-right" class="heaifno">Как мы это делаем?</h1>
+            <div data-aos="zoom-in-up" class="container">
+                <div  class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (3).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>Разработка web-сервисов</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (2).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>Разработка мобильных приложений</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (1).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>Интернет магазин</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (6).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>Курс по программированию</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (5).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>Ремонт компьютеров и электротехники</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card">
+                    <span></span>
+                    <div class="imgBx"><img src="./img/Rectangle 5 (4).png"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h2>WEB-ДИЗАЙНЕР</h2>
+                            <div class="contene">
+                                <div class="sr-o">
+                                    <div class="stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                    </div>
+                                    <p>(4.5) Рейтинг</p>
+                                </div>
+                                <a href="#" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="company" class="companw">
+        <div class="ifno-contine">
+            <div data-aos="flip-up" class="com-box-com">
+                <h1>О КОМПАНИИ</h1>
+            </div>
+            <div data-aos="zoom-out" class="headcom">IT - компания из <span>Бишкека</span></div>
+            <div class="dlex">
+                <img data-aos="zoom-out-right" src="./img/Rectangle 6 (1).png">
+                <div data-aos="zoom-out-left" class="text">
+                    <p>IT - компания из Бишкека – лидирующий глобальный поставщик ИТ-решений и сервисов, работающий на рынках Восточной Европы, Америки и Азии.
+                        Мы помогаем компаниям в цифровой трансформациии, защищаем их бизнес от угроз средствами кибербезопасности, внедряем комплексные технологические решения, облака, программное и аппаратное обеспечение, предоставляем все нужные IT-услуги.
+                    </p>
+                    <p>В 2018 году Softline исполнилось 25 лет, а оборот компании за 2018 год превысил $1,36 млрд долларов при росте продаж на 32%. 
+                        За годы работы мы сумели накопить на самом деле грандиозный опыт в ИТ!
+                        Сегодня мы работаем в 95 городах 50 стран мира, в нашем штате более 1500 аккаунт-менеджеров, 1000 специалистов по продажам решений и technical presale, 1000 инженеров и технических специалистов.
+                        Все они помогают заказчикам выбирать оптимальные IT-решения и грамотно внедрять их.
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="course" class="coursw">
+        <div class="fwo-contine">
+            <div data-aos="flip-up" class="com-box-fwo">
+                <h1>Курс</h1>
+                <p>Чем мы отличаемся от других школ программирования?</p>
+            </div>
+            <div class="dfex">
+                <div data-aos="zoom-in-down" class="tex-fino">
+                    <h3 class="com">Стажировка в местных IT компаниях</h3>
+                    <h3 class="co-px">Авторская методика обучения</h3>
+                    <h3 class="co-rem">Сертифицированные преподаватели</h3>
+                </div>
+                <img data-aos="zoom-out" src="./img/isoft.png">
+            </div>
+            <div data-aos="flip-up" class="text-fex">
+                <h1>Направления обучения</h1>
+                <p>Профессии и курсы, на которые сейчас открыт набор</p>
+                <p>Мы создали все необходимые условия, чтобы обучение было удобным и эффективным</p>
+            </div>
+            <div class="img-text">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="img-bane">
+                    <img src="./img/Rectangle 6 (2).png">
+                </div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" class="box">
+                    <div class="box_text">
+                        <h1>Офис в центре города!</h1>
+                        <p>Круглосуточный коворкинг в центре города, в бизнес-центре класса "А". 300 квадратных метра уюта.</p>
+                    </div>
+                    <div class="box_text">
+                        <h1>Минимальные сроки обучения</h1>
+                        <p>Собственная методика обучения, которая позволит обучиться новой профессии за короткий срок.</p>
+                    </div>
+                    <div class="box_text">
+                        <h1>Опытные учителя-практики</h1>
+                        <p>Мы приглашаем к обучению только опытных программистов, работающих full-time в IT-компаниях</p>
+                    </div>
+                    <div class="box_text">
+                        <h1>Гарантия результата</h1>
+                        <p>Бесплатные повторы на любом месяце обучения. У вас столько попыток, сколько нужно именно вам.</p>
+                    </div>
+                    <div class="box_text">
+                        <h1>Стажировка</h1>
+                        <p>Получите ваш первый опыт работы, над реальными проектами в нашей собственной IT-студии</p>
+                    </div>
+                    <div class="box_text">
+                        <h1>Трудоустройство</h1>
+                        <p>98% выпускников GeekTech находят работу в первый же месяц, после окончания курса.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicer-section">
+        <div class="inner-width">
+            <div class="servicer owl-carousel">
+                <div class="servlce">
+                    <div class="service-img">
+                        <img src="./img/Group 45.png">
+                    </div>
+                    <div class="service-name">
+                        <p class="service-desc">На фоне никому не нужных дипломов о высшем образовании сертификаты кажутся совсем бесполезными, но всё же есть разница между сертифицированным специалистом и специалистом на словах.
+                            Также если вы уйдёте в свободное плавание фриланса, на начальных этапах следует чем-то подкрепить свою компетентность, и сертификат будет как нельзя кстати. А ещё это доказывает, что вы не стоите на месте, продолжаете учиться и повышать квалификацию: в сфере IT это особенно важно с учётом того, как быстро меняются технологии.
+                        </p>
+                        <h2 class="service-h2">Адилхан Келсинбеков</h2>
+                    </div>
+                </div>
+                <div class="servlce">
+                    <div class="service-img">
+                        <img src="./img/Group 45.png">
+                    </div>
+                    <div class="service-name">
+                        <p class="service-desc">На фоне никому не нужных дипломов о высшем образовании сертификаты кажутся совсем бесполезными, но всё же есть разница между сертифицированным специалистом и специалистом на словах.
+                            Также если вы уйдёте в свободное плавание фриланса, на начальных этапах следует чем-то подкрепить свою компетентность, и сертификат будет как нельзя кстати. А ещё это доказывает, что вы не стоите на месте, продолжаете учиться и повышать квалификацию: в сфере IT это особенно важно с учётом того, как быстро меняются технологии.
+                        </p>
+                        <h2 class="service-h2">Адилхан Келсинбеков</h2>
+                    </div>
+                </div>
+                <div class="servlce">
+                    <div class="service-img">
+                        <img src="./img/Group 45.png">
+                    </div>
+                    <p class="service-name">На фоне никому не нужных дипломов о высшем образовании сертификаты кажутся совсем бесполезными, но всё же есть разница между сертифицированным специалистом и специалистом на словах.
+                        Также если вы уйдёте в свободное плавание фриланса, на начальных этапах следует чем-то подкрепить свою компетентность, и сертификат будет как нельзя кстати. А ещё это доказывает, что вы не стоите на месте, продолжаете учиться и повышать квалификацию: в сфере IT это особенно важно с учётом того, как быстро меняются технологии.
+                    </p>
+                    <h2 class="service-h2">Адилхан Келсинбеков</h2>
+                </div>
+                <div class="servlce">
+                    <div class="service-img">
+                        <img src="./img/Group 45.png">
+                    </div>
+                    <div class="service-name">
+                        <p class="service-desc">На фоне никому не нужных дипломов о высшем образовании сертификаты кажутся совсем бесполезными, но всё же есть разница между сертифицированным специалистом и специалистом на словах.
+                            Также если вы уйдёте в свободное плавание фриланса, на начальных этапах следует чем-то подкрепить свою компетентность, и сертификат будет как нельзя кстати. А ещё это доказывает, что вы не стоите на месте, продолжаете учиться и повышать квалификацию: в сфере IT это особенно важно с учётом того, как быстро меняются технологии.
+                        </p>
+                        <h2 class="service-h2">Адилхан Келсинбеков</h2>
+                    </div>
+                </div>
+                <div class="servlce">
+                    <div class="service-img">
+                        <img src="./img/Group 45.png">
+                    </div>
+                    <div class="service-name">
+                        <p class="service-desc">На фоне никому не нужных дипломов о высшем образовании сертификаты кажутся совсем бесполезными, но всё же есть разница между сертифицированным специалистом и специалистом на словах.
+                            Также если вы уйдёте в свободное плавание фриланса, на начальных этапах следует чем-то подкрепить свою компетентность, и сертификат будет как нельзя кстати. А ещё это доказывает, что вы не стоите на месте, продолжаете учиться и повышать квалификацию: в сфере IT это особенно важно с учётом того, как быстро меняются технологии.
+                        </p>
+                        <h2 class="service-h2">Адилхан Келсинбеков</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <div class="foofer-wrapper">
+            <h1>Наши контакты</h1>
+            <div class="text">
+                <div class="itno">
+                    <h4>Для обучения</h4>
+                    <a href="#"><p>+996 772 000 000</p></a>
+                    <a href="#"><p>hello@it-acadepy.kg</p></a>
+                </div>
+                <div class="itno">
+                    <h4>Для партнерств</h4>
+                    <a href="#"><p>+996 772 000 000</p></a>
+                    <a href="#"><p>hello@it-acadepy.kg</p></a>
+                </div>
+                <div class="itno">
+                    <h4>Для работы в Академии</h4>
+                    <a href="#"><p>+996 772 000 000</p></a>
+                    <a href="#"><p>hello@it-acadepy.kg</p></a>
+                </div>
+            </div>
+            <div class="text">
+                <div class="itno">
+                    <h4>СОЦСЕТИ</h4>
+                    <a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-telegram icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+                </div>
+                <div class="itno">
+                    <h4>ССЫЛКИ</h4>
+                    <a href="#"><p>Вступительный тест</p></a>
+                    <a href="#"><p>Запись на вебинар</p></a>
+                    <a href="#"><P>Зачисление на курс</P></a>
+                </div>
+                <div class="itno">
+                    <iframe class="ifaee" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5848.508298798211!2d74.5708881!3d42.8674796!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1621005072165!5m2!1sru!2skg" width="380" height="210" style="border:0;"  allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $(".servicer").owlCarousel({
+            margin:20,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                800:{
+                    items:3
+                }
+            }
+        });
+    </script>
+
+    
+    <script>
+        // const body = document.querySelector("body");
+        const headeer = document.querySelector(".headeer");
+        const menu = document.querySelector(".nav-links");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            // body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            // body.classList.remove("disabledScroll");
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1000);
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.card').on('mouseenter',function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top,
+                $(this).find('span').css({top:y, left:x});
+            }); 
+            $('.card').on('mouseout',function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top,
+                $(this).find('span').css({top:y, left:x});
+            });
+        });
+    </script>       
+
+
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/js.js"></script>
+</body>
+</html>
